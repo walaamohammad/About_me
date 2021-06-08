@@ -4,20 +4,21 @@ h1 {
     background-color: ivory;
     color: rebeccapurple;
 }
+body ul li {
+    padding: 10px;
+    color:sandybrown;
+}
+body ol li {
+    color: navy;
+}
 main section:nth-child(1) p{
     padding:5px;
-background-color:seashell;
+background-color:goldenrod;
 color: slateblue;
 font-size: medium;
 }
-main section:nth-child(1)
-p:nth-child(1){
-    text-align: left;
-    color: chocolate;
-    background-color:thistle;
-    font-size: medium;
-}
-main section:nth-child(1) p:nth-child(2){
+
+main section:nth-child(1) p:nth-child(1){
     color: darkmagenta;
     background-color:gray ;
     font-size: medium;
@@ -26,7 +27,7 @@ main section:nth-child(1) p:nth-child(2){
 
 body {
 
-    color:greenyellow;
+    color:brown;
     width: 100%;
     
 }
